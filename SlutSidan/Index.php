@@ -3,18 +3,11 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/Main.css">
-    <title></title>
+    <title>Hemsida</title>
   </head>
   <body>
-    <nav>
-      <ul>
-        <li>
-          <a href="register.php">Register</a>
-        </li>
-        <li>
-          <a href="login.php">Login</a>
-        </li>
-      </ul>
-    </nav>
+    <?php
+      include_once 'includes/header.php';
+    ?>
   </body>
 </html>
