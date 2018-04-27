@@ -15,6 +15,7 @@
     $result = mysqli_query($conn, $sql);
     $resultCheck = mysqli_num_rows($result);
 
+    //Check if user already exists
     if($resultCheck == 0){
       $sql = "INSERT INTO Users (firstname, lastname, password, mail) VALUES ('$firstname', '$lastname', '$password', '$mail')";
       $result = mysqli_query($conn, $sql);

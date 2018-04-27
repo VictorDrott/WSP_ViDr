@@ -8,7 +8,7 @@
 
     <form action="php/LoginUser.php" method="post">
       E-mail: <input type="text" name="mail"><br>
-      Password: <input type="text" name="password"><br>
+      Password: <input type="password" name="password"><br>
       <input type="submit" name="submit">
     </form>
   </body>
