@@ -3,11 +3,11 @@
   margin: 0;
 }
 nav{
-  background-color: blue;
+  background-color: green;
   padding: 1.2vw;
 }
 nav ul {
- text-align: right;
+ text-align: center;
  margin-right: 7vw;
 
 }
@@ -25,8 +25,9 @@ nav ul li a{
   border-radius: 10px 10px 10px 10px;
 }
 nav ul li a:hover{
-  background-color: blue;
+  background-color: darkgreen;
 }
 .welcome{
   color: white;
+  font-size: 1.4vw;
 }
